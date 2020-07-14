@@ -168,7 +168,7 @@ footer.footsy ul li{
 	line-height: 1.5;
 }
 /* &&&&&&&&&&&&&&&mobile&&&&&&&&&&&&&&& */
-@media screen and (max-width: 680px){
+@media screen and (max-width: 480px){
 	ul.topnav-left li:not(:nth-child(1)){
 		display:none;
 	}
