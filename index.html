@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="cook.css">
+<title>MY CSS WEBSITE</title>
+</head>
+<body>
+<nav>
+<ul class="topnav-left" id="dropdownclick">
+<li><a href="#home">HOME</a></li>
+<li><a href="#news">NEWS</a></li>
+<li><a href="#about">ABOUT</a></li>
+<li><a href="#contact">CONTACT</a></li>
+<li class="topnav-right"><a href="#signup">SIGN UP</a></li>
+<li class="topnav-right"><a href="#signin">SIGN IN</a></li>
+<li class="dropdownicon"><a href="javascript:void(0);" onclick="dropdownmenu()">&#9776;</a></li>
+</ul>
+</nav>
+<div class="cointainer" id="section-1-gradient">
+	<div class="row">
+		<div class="col-6">
+			<div class="leftside-col">
+				<h1 class="large">READY FOR COOK</h1>
+				<h1 class="large">MADE FOR COOKERS</h1>
+			</div>
+			<form>
+				<div class="leftside-col">
+					<h2>UserName</h2>
+					<input class="inputbox" name="UserName" type="text" placeholder="UserName">
+					<h2>Password</h2>
+					<input class="inputbox" name="password" type="text" placeholder="Password">
+				</div>
+			</form>
+		</div>
+		<div class="col-6">
+			<div class="rightside-col">
+				<div class="videocointainer">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/xN4V2wu_n-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</div>
+		</div>
+	</div>
+</div>
+<header>
+	<h1 class="section2header"> COOKING IS AWESOME </h1>
+	</header>
+	<div class="cointainer">
+		<div class="row">
+			<div class="col-4">
+				<div class="box">
+						<div class="icon">
+							<img src="iconsre.jpg">
+						</div>
+						<label>Chat With Me </label>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  </p>
+					</div>
+				</div>
+				<div class="col-4">
+				<div class="box">
+						<div class="icon">
+							<img src="iconsre.jpg">
+						</div>
+						<label>Learn To Cook </label>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  </p>
+					</div>
+				</div>
+				<div class="col-4">
+				<div class="box">
+						<div class="icon">
+							<img src="iconsre.jpg">
+						</div>
+						<label>Be A Super Cook </label>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  </p>
+					</div>
+		       </div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<button class="learnmore"> Learn More</button>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="cointainer">
+		<div class="row">
+		<div class="col-7">
+			<article>
+				<p>
+					I am going to fill you in on a major secret of good nutrition: Healthier eating often has nothing to do with superfoods, metabolism or the perfect balance of nutrients, but rather with being prepared. That's right - just like the Boy Scouts. In this case, what we need to be prepared with is food that is in line with our values and health goals.We live fast lives, and most of us are tight on time. Often we don't eat right not because we don't think we need to or because we refuse to eat vegetables, but rather because we come home tired and hungry to an empty fridge. So we order something quick - and probably unhealthy - because it is easy and tasty.
+				</p>
+			</article>
+		</div>
+		<div class="col-5">
+			<div class="cookingicon">
+				<img src="cooking.jpg">
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="footsy">
+	<div class="row">
+		
+		<div class="col-3 mobilestack">
+			<h1> Company </h1>
+			<ul>
+				<li>About</li>
+				<li>Blogs</li>
+				<li>Careers</li>
+			</ul>
+		</div>
+		<div class="col-3 mobilestack">
+			<h1> Products </h1>
+			<ul>
+				<li>Computers</li>
+				<li>ipad</li>
+				<li>iphone</li>
+			</ul>
+		</div>
+		<div class="col-3 mobilestack">
+			<h1> Learn More </h1>
+			<ul>
+				<li>Devlopers</li>
+				<li>Designers</li>
+				<li>Hackers</li>
+			</ul>
+		</div>
+		<div class="col-3 mobilestack">
+			<h1> Support </h1>
+			<ul>
+				<li>Help</li>
+				<li>QA</li>
+				<li>Connect</li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<script>
+	function dropdownmenu(){
+		var x=document.getElementById("dropdownclick");
+		if (x.className === "topnav-left"){
+			x.className += " responsive";
+		}
+		else{
+			x.className = "topnav-left";
+		}
+	}
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
